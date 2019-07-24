@@ -6126,7 +6126,7 @@ if (typeof VMM.Slider != 'undefined') {
 			}
 			
 			if (c.has.text || c.has.headline) {
-				c.text		= VMM.createElement("div", c.text, "container");
+				c.text		= VMM.createElement("div", c.text, "container slide-text");
 				//$text		=	VMM.appendAndGetElement($slide, "<div>", "text", c.text);
 				
 				$text		= VMM.appendAndGetElement($slide, "<div>", "text", VMM.TextElement.create(c.text));
